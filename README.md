@@ -22,13 +22,25 @@ The YOLOv7 object detection algorithm was used to detect the license plates in a
 
 The License plate is detected and undergoes several steps for preprocessing and rotation angle adjustment. 
 
+The detected region is cropped to only include the license plate. 
 ![Figure 2. Cropped Image](https://drive.google.com/uc?export=view&id=1uGPbxJLtoBPLJQB4AVqiB9Ij9ed_kzn0)
 
+The image is converted from RGB color to gray. 
 ![Figure 3. Gray Image](https://drive.google.com/uc?export=view&id=11abSPW4rsaSmKBE_LUKEual_ezVDdYzI)
+
+The edges are detected using Canny Edge Detection
 
 ![Figure 4. Edge Detected Image](https://drive.google.com/uc?export=view&id=1gvVY0EUhtHHdbEC9SfTbbfPtVypn_BLN)
 
+Hough transform is used to detect straight lines
 ![Figure 5. Hough Line Transform Image](https://drive.google.com/uc?export=view&id=15axv6HudhHqY91rFf-OkvAKmnrn5qvqW)
+
+The image is rotated using Affine transformations
 
 ![Figure 6. Rotated Image](https://drive.google.com/uc?export=view&id=1h6fOZiz5maWWfiM59-RRmQnHsax8QzxL)
 
+The contours of the image are detected. 
+![Figure 7. Contours Image](https://drive.google.com/uc?export=view&id=1v333umN_MTOMKyOVLIePnPmf0-pr1wfb)
+
+Finally, the characters of the number plate are recognized using EasyOCR.
+![Figure 8. Final Image](https://drive.google.com/uc?export=view&id=1k1V9ZaeMn6LHq0cyw5MkzKxyiQBjpSJo)
