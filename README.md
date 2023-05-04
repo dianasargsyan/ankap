@@ -18,33 +18,33 @@ and other materials which may be helpful to implementing a similar system.
 
 The YOLOv7 object detection algorithm was used to detect the license plates in an image.
 
-<img src="https://drive.google.com/uc?export=view&id=1RAIC18q_jIc5eMi63vKRrD9lEmm2lxwu" title="Figure 1. Original Image" width="50%" />
+<img src="https://drive.google.com/uc?export=view&id=1RAIC18q_jIc5eMi63vKRrD9lEmm2lxwu" alt = "Image" title="Figure 1. Original Image" width="50%" />
 
 The License plate is detected and undergoes several steps for preprocessing and rotation angle adjustment. 
 
 The detected region is cropped to only include the license plate. 
 
-<img src="https://drive.google.com/uc?export=view&id=1uGPbxJLtoBPLJQB4AVqiB9Ij9ed_kzn0" alt="Figure 2. Cropped Image" width="50%" />
+<img src="https://drive.google.com/uc?export=view&id=1uGPbxJLtoBPLJQB4AVqiB9Ij9ed_kzn0" alt = "Image" title="Figure 2. Cropped Image" width="50%" />
 
 The image is converted from RGB color to gray. 
 
-<img src="https://drive.google.com/uc?export=view&id=11abSPW4rsaSmKBE_LUKEual_ezVDdYzI" alt="Figure 3. Gray Image" width="50%" />
+<img src="https://drive.google.com/uc?export=view&id=11abSPW4rsaSmKBE_LUKEual_ezVDdYzI" title="Figure 3. Gray Image" width="50%" />
 
 The edges are detected using Canny Edge Detection.
 
-<img src="https://drive.google.com/uc?export=view&id=1gvVY0EUhtHHdbEC9SfTbbfPtVypn_BLN" alt="Figure 4. Edge Detected Image" width="50%" />
+<img src="https://drive.google.com/uc?export=view&id=1gvVY0EUhtHHdbEC9SfTbbfPtVypn_BLN" alt = "Image" title="Figure 4. Edge Detected Image" width="50%" />
 
 Hough transform is used to detect straight lines.
 
-<img src="https://drive.google.com/uc?export=view&id=15axv6HudhHqY91rFf-OkvAKmnrn5qvqW" alt="Figure 5. Hough Transform" width="50%" />
+<img src="https://drive.google.com/uc?export=view&id=15axv6HudhHqY91rFf-OkvAKmnrn5qvqW" alt = "Image" title="Figure 5. Hough Transform" width="50%" />
 
 The image is rotated using Affine transformations.
 
-<img src="https://drive.google.com/uc?export=view&id=1h6fOZiz5maWWfiM59-RRmQnHsax8QzxL" alt="Figure 6. Rotated Image" width="50%" />
+<img src="https://drive.google.com/uc?export=view&id=1h6fOZiz5maWWfiM59-RRmQnHsax8QzxL" alt = "Image" title="Figure 6. Rotated Image" width="50%" />
 
 The contours of the image are detected. 
 
-<img src="https://drive.google.com/uc?export=view&id=1v333umN_MTOMKyOVLIePnPmf0-pr1wfb" alt="Figure 7. Contours Image" width="50%" />
+<img src="https://drive.google.com/uc?export=view&id=1v333umN_MTOMKyOVLIePnPmf0-pr1wfb" alt = "Image" title="Figure 7. Contours Image" width="50%" />
 
 Finally, the characters of the number plate are recognized using EasyOCR.
-<img src="https://drive.google.com/uc?export=view&id=187sFFvb5QL2hvNeRjfbl583w7mhEC6Es" alt="Figure 8. Final Image" width="50%" />
+<img src="https://drive.google.com/uc?export=view&id=187sFFvb5QL2hvNeRjfbl583w7mhEC6Es" alt = "Image" title="Figure 8. Final Image" width="50%" />
