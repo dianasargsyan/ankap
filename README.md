@@ -10,10 +10,10 @@ this project presents a promising solution for ANPR systems.
 The full reproducible code is available in the Detection&Recognition.py file
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1vFEyAeCmFb8QFZWE57XC9f177INedpqh?usp=sharing). 
 
-The following link provides the dataset of images and their respective label .txt files which have the bounding box coordinates of 
+The [following link](https://drive.google.com/drive/folders/1n1fak5Y7me_ifWcE9PARYmaqWE6sw-e-?usp=share_link) provides the dataset of images and their respective label .txt files which have the bounding box coordinates of 
 the license plates. The folder also includes all images used in the research paper, the weight .pt file of the object detection training,
 and other materials which may be helpful to implementing a similar system. 
-https://drive.google.com/drive/folders/1n1fak5Y7me_ifWcE9PARYmaqWE6sw-e-?usp=share_link
+
 
 
 
