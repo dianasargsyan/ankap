@@ -38,7 +38,7 @@ Hough transform is used to detect straight lines
 
 The image is rotated using Affine transformations
 
-![Figure 6. Rotated Image](https://drive.google.com/uc?export=view&id=1h6fOZiz5maWWfiM59-RRmQnHsax8QzxL)
+<div style="text-align:center"><img src="https://drive.google.com/uc?export=view&id=1h6fOZiz5maWWfiM59-RRmQnHsax8QzxL" alt="Figure 6. Rotated Image" width="50%" /></div>
 
 The contours of the image are detected. 
 
