@@ -18,7 +18,7 @@ and other materials which may be helpful to implementing a similar system.
 
 The YOLOv7 object detection algorithm was used to detect the license plates in an image.
 
-<img src="https://drive.google.com/uc?export=view&id=1RAIC18q_jIc5eMi63vKRrD9lEmm2lxwu" alt="Figure 1. Original Image" width="50%" />
+<img src="https://drive.google.com/uc?export=view&id=1RAIC18q_jIc5eMi63vKRrD9lEmm2lxwu" title="Figure 1. Original Image" width="50%" />
 
 The License plate is detected and undergoes several steps for preprocessing and rotation angle adjustment. 
 
@@ -30,15 +30,15 @@ The image is converted from RGB color to gray.
 
 <img src="https://drive.google.com/uc?export=view&id=11abSPW4rsaSmKBE_LUKEual_ezVDdYzI" alt="Figure 3. Gray Image" width="50%" />
 
-The edges are detected using Canny Edge Detection
+The edges are detected using Canny Edge Detection.
 
 <img src="https://drive.google.com/uc?export=view&id=1gvVY0EUhtHHdbEC9SfTbbfPtVypn_BLN" alt="Figure 4. Edge Detected Image" width="50%" />
 
-Hough transform is used to detect straight lines
+Hough transform is used to detect straight lines.
 
 <img src="https://drive.google.com/uc?export=view&id=15axv6HudhHqY91rFf-OkvAKmnrn5qvqW" alt="Figure 5. Hough Transform" width="50%" />
 
-The image is rotated using Affine transformations
+The image is rotated using Affine transformations.
 
 <img src="https://drive.google.com/uc?export=view&id=1h6fOZiz5maWWfiM59-RRmQnHsax8QzxL" alt="Figure 6. Rotated Image" width="50%" />
 
