@@ -33,7 +33,8 @@ The edges are detected using Canny Edge Detection
 ![Figure 4. Edge Detected Image](https://drive.google.com/uc?export=view&id=1gvVY0EUhtHHdbEC9SfTbbfPtVypn_BLN)
 
 Hough transform is used to detect straight lines
-![Figure 5. Hough Line Transform Image](https://drive.google.com/uc?export=view&id=15axv6HudhHqY91rFf-OkvAKmnrn5qvqW)
+<img src="https://drive.google.com/uc?export=view&id=187sFFvb5QL2hvNeRjfbl583w7mhEC6Es" alt="Figure 5. Hough Line Transform Image" width="400" />
+
 
 The image is rotated using Affine transformations
 
