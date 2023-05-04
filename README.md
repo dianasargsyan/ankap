@@ -41,7 +41,8 @@ The image is rotated using Affine transformations
 ![Figure 6. Rotated Image](https://drive.google.com/uc?export=view&id=1h6fOZiz5maWWfiM59-RRmQnHsax8QzxL)
 
 The contours of the image are detected. 
-![Figure 7. Contours Image](https://drive.google.com/uc?export=view&id=1v333umN_MTOMKyOVLIePnPmf0-pr1wfb)
+
+<img src="https://drive.google.com/uc?export=view&id=1v333umN_MTOMKyOVLIePnPmf0-pr1wfb" alt="Figure 7. Contours Image" width="50%" />
 
 Finally, the characters of the number plate are recognized using EasyOCR.
 <img src="https://drive.google.com/uc?export=view&id=187sFFvb5QL2hvNeRjfbl583w7mhEC6Es" alt="Figure 8. Final Image" width="50%" />
