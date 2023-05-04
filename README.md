@@ -18,27 +18,29 @@ and other materials which may be helpful to implementing a similar system.
 
 The YOLOv7 object detection algorithm was used to detect the license plates in an image.
 
-![Figure 1. Original Image](https://drive.google.com/uc?export=view&id=1RAIC18q_jIc5eMi63vKRrD9lEmm2lxwu)
+<img src="https://drive.google.com/uc?export=view&id=1RAIC18q_jIc5eMi63vKRrD9lEmm2lxwu" alt="Figure 1. Original Image" width="50%" />
 
 The License plate is detected and undergoes several steps for preprocessing and rotation angle adjustment. 
 
 The detected region is cropped to only include the license plate. 
-![Figure 2. Cropped Image](https://drive.google.com/uc?export=view&id=1uGPbxJLtoBPLJQB4AVqiB9Ij9ed_kzn0)
+
+<img src="https://drive.google.com/uc?export=view&id=1uGPbxJLtoBPLJQB4AVqiB9Ij9ed_kzn0" alt="Figure 2. Cropped Image" width="50%" />
 
 The image is converted from RGB color to gray. 
-![Figure 3. Gray Image](https://drive.google.com/uc?export=view&id=11abSPW4rsaSmKBE_LUKEual_ezVDdYzI)
+
+<img src="https://drive.google.com/uc?export=view&id=11abSPW4rsaSmKBE_LUKEual_ezVDdYzI" alt="Figure 3. Gray Image" width="50%" />
 
 The edges are detected using Canny Edge Detection
 
-![Figure 4. Edge Detected Image](https://drive.google.com/uc?export=view&id=1gvVY0EUhtHHdbEC9SfTbbfPtVypn_BLN)
+<img src="https://drive.google.com/uc?export=view&id=1gvVY0EUhtHHdbEC9SfTbbfPtVypn_BLN" alt="Figure 4. Edge Detected Image" width="50%" />
 
 Hough transform is used to detect straight lines
 
-![Figure 5. Hough Transdoem](https://drive.google.com/uc?export=view&id=15axv6HudhHqY91rFf-OkvAKmnrn5qvqW)
+<img src="https://drive.google.com/uc?export=view&id=15axv6HudhHqY91rFf-OkvAKmnrn5qvqW" alt="Figure 5. Hough Transform" width="50%" />
 
 The image is rotated using Affine transformations
 
-<div style="text-align:center"><img src="https://drive.google.com/uc?export=view&id=1h6fOZiz5maWWfiM59-RRmQnHsax8QzxL" alt="Figure 6. Rotated Image" width="50%" /></div>
+<img src="https://drive.google.com/uc?export=view&id=1h6fOZiz5maWWfiM59-RRmQnHsax8QzxL" alt="Figure 6. Rotated Image" width="50%" />
 
 The contours of the image are detected. 
 
