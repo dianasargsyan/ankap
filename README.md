@@ -14,6 +14,9 @@ The [following link](https://drive.google.com/drive/folders/1n1fak5Y7me_ifWcE9PA
 the license plates. The folder also includes all images used in the research paper, the weight .pt file of the object detection training,
 and other materials which may be helpful to implementing a similar system. 
 
+## Object Detection
 
+The YOLOv7 object detection algorithm was used to detect the license plates in an image. 
+<img src="Users/diana/Desktop/capstonefolders/paperimages/Picture3.png" alt="Alt text" title="Original Image">
 
 
