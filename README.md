@@ -33,8 +33,8 @@ The edges are detected using Canny Edge Detection
 ![Figure 4. Edge Detected Image](https://drive.google.com/uc?export=view&id=1gvVY0EUhtHHdbEC9SfTbbfPtVypn_BLN)
 
 Hough transform is used to detect straight lines
-<img src="https://drive.google.com/uc?export=view&id=187sFFvb5QL2hvNeRjfbl583w7mhEC6Es" alt="Figure 5. Hough Line Transform Image" width="50%" />
 
+![Figure 5. Hough Transdoem](https://drive.google.com/uc?export=view&id=15axv6HudhHqY91rFf-OkvAKmnrn5qvqW)
 
 The image is rotated using Affine transformations
 
@@ -44,4 +44,4 @@ The contours of the image are detected.
 ![Figure 7. Contours Image](https://drive.google.com/uc?export=view&id=1v333umN_MTOMKyOVLIePnPmf0-pr1wfb)
 
 Finally, the characters of the number plate are recognized using EasyOCR.
-![Figure 8. Final Image](https://drive.google.com/uc?export=view&id=1k1V9ZaeMn6LHq0cyw5MkzKxyiQBjpSJo)
+<img src="https://drive.google.com/uc?export=view&id=187sFFvb5QL2hvNeRjfbl583w7mhEC6Es" alt="Figure 8. Final Image" width="50%" />
