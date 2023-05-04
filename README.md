@@ -17,6 +17,7 @@ and other materials which may be helpful to implementing a similar system.
 ## Object Detection
 
 The YOLOv7 object detection algorithm was used to detect the license plates in an image. 
-<img src="Users/diana/Desktop/capstonefolders/paperimages/Picture3.png" alt="Alt text" title="Original Image">
+![Figure 1. Original Image](https://drive.google.com/file/d/1RAIC18q_jIc5eMi63vKRrD9lEmm2lxwu/view?usp=share_link)
+
 
 
