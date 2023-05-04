@@ -16,9 +16,19 @@ and other materials which may be helpful to implementing a similar system.
 
 ## Object Detection
 
-The YOLOv7 object detection algorithm was used to detect the license plates in an image. 
-![Figure 1. Original Image](https://drive.google.com/uc?export=view&id=1RAIC18q_jIc5eMi63vKRrD9lEmm2lxwu "Figure 1. Original Image")
+The YOLOv7 object detection algorithm was used to detect the license plates in an image.
 
+![Figure 1. Original Image](https://drive.google.com/uc?export=view&id=1RAIC18q_jIc5eMi63vKRrD9lEmm2lxwu)
 
+The License plate is detected and undergoes several steps for preprocessing and rotation angle adjustment. 
 
+![Figure 2. Cropped Image](https://drive.google.com/uc?export=view&id=1uGPbxJLtoBPLJQB4AVqiB9Ij9ed_kzn0)
+
+![Figure 3. Gray Image](https://drive.google.com/uc?export=view&id=11abSPW4rsaSmKBE_LUKEual_ezVDdYzI)
+
+![Figure 4. Edge Detected Image](https://drive.google.com/uc?export=view&id=1gvVY0EUhtHHdbEC9SfTbbfPtVypn_BLN)
+
+![Figure 5. Hough Line Transform Image](https://drive.google.com/uc?export=view&id=15axv6HudhHqY91rFf-OkvAKmnrn5qvqW)
+
+![Figure 6. Rotated Image](https://drive.google.com/uc?export=view&id=1h6fOZiz5maWWfiM59-RRmQnHsax8QzxL)
 
